@@ -1,6 +1,6 @@
 # Senior Systems & Web Architect
 
-Software Engineer with **7+ years of commercial experience** architecting high-throughput, deterministic systems. Specialized in bridging **low-level numeric cores (Rust / WebAssembly)** with **enterprise application layers (TypeScript, NestJS, DDD)** and **AI-assisted operational intelligence**.
+Software Engineer with **7+ years of commercial experience** architecting high-throughput, deterministic systems. Specialized in bridging **low-level numeric cores (Rust / WebAssembly)** with **enterprise application layers (TypeScript, NestJS, DDD)** and **secure AI infrastructure**.
 
 Uncompromising focus on deterministic execution, sub-millisecond latencies, transactional data boundaries, and mechanical sympathy.
 
@@ -11,8 +11,22 @@ Uncompromising focus on deterministic execution, sub-millisecond latencies, tran
 * **High-Performance Numeric Cores:** Rust, WebAssembly (`wasm-pack`), Low-Level Optimization, SIMD/Monte Carlo Simulations
 * **Enterprise Application Architecture:** TypeScript, NestJS (Modular Monolith, DDD, Transactional Outbox, OCC), Node.js, Python
 * **Data Persistence & Concurrency:** PostgreSQL, Prisma (`schema-per-module`), Isolation Levels, ACID, Optimistic Concurrency Control
-* **Frontend & High-Density UI:** React, TypeScript, Vite, Real-Time Market Visualizations, Sub-frame Latency Optimization
-* **Applied AI & Systems:** Deterministic Narrative Engines, Local LLM Integration (Ollama), Structured Ingestion, Qdrant
+* **Frontend & High-Density UI:** React, Next.js (App Router), TypeScript, Real-Time Dashboards, Sub-frame Latency Optimization
+* **Applied AI & Systems:** Zero-Trust RAG Pipelines, Local LLM Ingestion (Ollama), Deterministic Insights, Qdrant
+
+---
+
+## 📦 Published Packages & Open Source
+
+### 🚀 `wavy-sounds` (npm)
+[![npm version](https://img.shields.io/npm/v/wavy-sounds?style=flat-square&color=CB3837)](https://www.npmjs.com/package/wavy-sounds)
+[![npm downloads](https://img.shields.io/npm/dm/wavy-sounds?style=flat-square&color=blue)](https://www.npmjs.com/package/wavy-sounds)
+
+Simple library written in Rust for analyze sounds and generate wave data to display it. Now it's experimental use library and I've implemeneted only simple approach. It's experiment for analyze sounds in Rust and gain some knowledge of Web Assembly as a new big web feature.
+
+* **Zero Bloat & Tree-Shakeable:** Engineered with zero external runtime dependencies and full ESM/CJS dual-build support.
+* **Strict Type Safety:** Comprehensive TypeScript definitions with full runtime validation boundaries.
+* **WASM-Accelerated (jeśli dotyczy):** Direct bindings to high-throughput WebAssembly modules for sub-millisecond execution.
 
 ---
 
@@ -27,8 +41,6 @@ A high-performance quantitative simulation and options risk engine engineered as
 * **Full-Spectrum Risk Profiling:** Real-time multi-asset Monte Carlo revaluation generating VaR (95/99), Expected Shortfall (ES), and peak-to-trough drawdown distributions (~30M revaluations/sec).
 * **Deterministic-First AI Insights:** Narrative risk synthesis defaulting to sub-millisecond deterministic templates with an automated fallback pipeline for local LLMs (Ollama) guarded by request-hash caching.
 * *Stack:* `Rust` `WebAssembly` `NestJS` `TypeScript` `PostgreSQL` `Prisma` `React` `Docker`
-
----
 
 ### 🛡️ Enterprise Zero-Trust RAG Gateway (`company-wiki-ai`)
 A production-grade, deterministic RAG system engineered for enterprise authorization boundaries and zero data leakage.
