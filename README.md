@@ -1,49 +1,52 @@
-# Hi there, I'm a Software Engineer expanding into AI & Systems Integration 🚀
+# Senior Systems & Applied AI Engineer
 
-I am a software engineer with **7+ years of commercial experience** in architecting and delivering clean, scalable web applications. My current focus is shifting towards the pragmatic intersection of **Systems Engineering (Rust)**, **Machine Learning (GCP/MLOps)**, and **Data Visualization**.
+Software Engineer with **7+ years of commercial experience** designing deterministic, high-throughput systems and modern web architectures. Focused on the intersection of **low-level systems engineering (Rust / WASM)**, **Applied AI infrastructure (FastAPI, Qdrant, Local LLMs)**, and **mission-critical data pipelines**.
 
-I believe in architectural discipline, incremental growth, and building robust, end-to-end solutions from data generation to user interface.
-
----
-
-## 🛠️ Tech Stack & Arsenal
-
-*   **Frontend (Core):** TypeScript, JavaScript, React, Next.js, HTML5 Canvas, Ecosystem Tooling
-*   **Systems & Data:** Rust (Core logic & Simulation), Python (Data Science), SQL (PostgreSQL, BigQuery)
-*   **AI & Cloud:** Machine Learning (Regression, Classification), Google Cloud Platform (GCP), Vertex AI
+Anti-hype, anti-vibe-coding. Built on ACID compliance, zero-trust security, and mechanical sympathy.
 
 ---
 
-## 🛰️ Current R&D Projects
+## 🛠️ Core Engineering Stack
 
-### 📡 Orbital Collision Predictor (MVP)
-A lightweight, end-to-end research project exploring how to connect a custom data generator with predictive Machine Learning models.
-*   **The Engine (Rust):** A simple, fast 2D orbital mechanics simulator that generates synthetic object telemetry (vectors, velocity, distance) without the bloat of heavy frameworks.
-*   **The Intelligence (Python & Google ML):** A predictive classification model that ingests data from the simulator and evaluates collision probabilities.
-*   **The Dashboard (React & TypeScript):** A clean, intuitive interface that renders trajectories using lightweight 2D Canvas/Charts, bringing complex backend telemetry into a scannable business view.
-*   *Tech Keywords:* `Rust` `Python` `GCP` `React` `Data Pipelines` `Canvas2D`
-
-### 📊 Enterprise Text-to-SQL Gateway
-A pragmatic B2B tool designed to bridge the gap between non-technical stakeholders and corporate databases.
-*   Translates natural language queries into optimized SQL statements using GCP data tools.
-*   Aims to streamline business intelligence reporting by deploying secure, simple user interfaces on top of complex data warehouses.
+* **Systems & Core Logic:** Rust, WebAssembly (WASM), C++, Memory & Concurrency Optimization
+* **Applied AI & Data Architecture:** Python (FastAPI, SQLModel), Vector DBs (Qdrant), RAG Pipelines, Text-to-SQL Engines, PostgreSQL, DuckDB
+* **Frontend & Visual Computing:** TypeScript, React, Next.js (App Router), Canvas API, High-Density Dashboards
+* **Infrastructure & Security:** Docker, Linux, On-Premise/Air-Gapped Deployment, AST Validation, ABAC/RBAC
 
 ---
 
-## 📈 The Engineering Mindset
+## 🛰️ Selected Architectures & Production Systems
 
-> "Simplify until it works, then optimize only what matters."
+### 🛡️ Enterprise Zero-Trust RAG Gateway
+A production-grade, deterministic RAG system engineered for strict corporate compliance and zero data leakage.
+* **Granular Security (ABAC):** Enforces deterministic payload filtering at the storage engine level (Qdrant) before context ever reaches the LLM context window.
+* **High-Throughput Backend:** Asynchronous FastAPI + SQLModel engine maintaining strict relational integrity in PostgreSQL while serving sub-50ms vector queries.
+* **Deterministic Ingestion:** AST-aware chunking pipelines eliminating context fragmentation and token bloat.
+* *Stack:* `Python` `FastAPI` `Qdrant` `PostgreSQL` `Docker` `Next.js`
 
-I value **consistency over hype**. While navigating corporate environments and legacy setups, I dedicate focused time daily to sharpening my skills in low-level resource management, cloud pipelines, and applied AI. I don't just consumer API wrappers – I enjoy understanding how data flows from the system level straight to the user's screen.
+### 📊 Deterministic Text-to-SQL Gateway
+An enterprise analytical pipeline enabling non-technical operators to query production databases in natural language without structural or security compromises.
+* **AST Validation & Sandboxing:** Validates and parses generated SQL through strict AST filters prior to execution, completely mitigating destructive queries and multi-tenant leaks.
+* **Read-Only Infrastructure:** Connection pooling optimized for read-only replicas with hard query timeouts and deterministic schema caching.
+* *Stack:* `Python` `PostgreSQL` `SQLGlot` `AST Parsing` `TypeScript`
+
+### ⚙️ High-Performance Physics & Telemetry Engine (`option-engine`)
+A lightweight, high-frequency simulation core engineered in Rust to generate, process, and visualize real-time vector telemetry.
+* **Zero-Cost Abstractions:** Custom physics pipeline built without bloated simulation frameworks, compiling to native binaries and WebAssembly.
+* **Predictive Pipeline:** Real-time data serialization pipe connecting low-level Rust telemetry directly to predictive machine learning models and high-frame-rate Canvas interfaces.
+* *Stack:* `Rust` `WASM` `Python` `TypeScript` `Canvas API`
 
 ---
 
-## 🎯 Next Milestones
+## 🏛️ Engineering Principles
 
-*   [ ] Complete the Google Cloud ML foundational modules.
-*   [ ] Deliver the working 2D MVP of the Orbital Simulator (Rust telemetry to React view).
-*   [ ] Establish an independent High-Tech Consultancy focused on pragmatic AI automation and performance optimization for SMBs.
+> "Make it deterministic first, then optimize the hot path."
+
+* **Reliability Over Hype:** LLMs are probabilistic engines; systems around them must be deterministic.
+* **Engine-Level Security:** Access control belongs at the database and memory layer, not inside a conversational prompt.
+* **End-to-End Ownership:** From bare-metal resource limits and database transactions up to sub-frame UI rendering.
 
 ---
 
-📬 *Note: This profile serves as my private technical laboratory. While my commercial production code lives behind enterprise NDA walls, my most ambitious foundational work is being compiled right here.*
+### 🌐 Industrial Studio & Advisory
+Founder of **StelCode** — a boutique software studio engineering private, air-gapped AI solutions and high-performance system integrations for enterprise operations.
